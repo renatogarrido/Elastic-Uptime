@@ -48,6 +48,10 @@ Após e so acessar o Kibana na seção:
 
 Observability > Uptime
 
+![observa](https://user-images.githubusercontent.com/28298006/115062092-56141c00-9ec0-11eb-8bf4-d9852af0edce.png)
+
+Após a tela seguinte será apresentada:
+
 ![uptime](https://user-images.githubusercontent.com/28298006/115061954-282ed780-9ec0-11eb-83b6-953f321a2a72.png)
 
 
