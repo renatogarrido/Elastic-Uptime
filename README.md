@@ -44,6 +44,16 @@ sudo heartbeat setup
 sudo service heartbeat-elastic start
 
 
+Após e so acessar o Kibana na seção:
+
+Observability > Uptime
+
+![uptime](https://user-images.githubusercontent.com/28298006/115061954-282ed780-9ec0-11eb-83b6-953f321a2a72.png)
+
+
+
+
+
 
 
 
