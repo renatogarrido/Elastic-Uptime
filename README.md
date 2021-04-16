@@ -20,23 +20,10 @@ sudo dpkg -i heartbeat-7.12.0-amd64.deb
 Após instalação necessario efetuar a configuração do arquivo heartbeat.yml que fica no meu caso em /etc/heartbeat/
 heartbeat.yml
 
-output.elasticsearch:
-  hosts: ["<es_url>"]
-  username: "elastic"
-  password: "<password>"
-setup.kibana:
-  host: "<kibana_url>"
+![code](https://user-images.githubusercontent.com/28298006/115064213-0e42c400-9ec3-11eb-8332-03afc9abe83f.png)
 
-3 - Edit the configuration - Add monitors
 
-Edit the heartbeat.monitors setting in the heartbeat.yml file.
-
-heartbeat.monitors:
-- type: http
-  urls: ["<http://localhost:9200>"]
-  schedule: "@every 10s"
-
-4 - Start Heartbeat
+3 - Start Heartbeat
 
 The setup command loads the Kibana index pattern.
 
